@@ -2,7 +2,7 @@
 
 A difference-in-differences study of the March 2020 short-selling bans and their effect on trading activity, illiquidity, and realized volatility across five European equity markets.
 
-Bachelor thesis at ESCP Business School (BSc in Management, Finance Track), supervised by Prof. Dr. Diego Salzman. January to May 2026.
+Bachelor thesis at ESCP Business School (BSc in Management, Finance Major), supervised by Prof. Dr. Diego Salzman. January to May 2026.
 
 ## Research question
 
@@ -151,4 +151,4 @@ Python 3.12, pandas, numpy, linearmodels (PanelOLS), matplotlib, openpyxl.
 
 ## Author
 
-Viktorie Kodickova, ESCP Business School, BSc in Management (Finance Track).
+Viktorie Kodickova, ESCP Business School, BSc in Management (Finance Major).
