@@ -1,5 +1,7 @@
 # Short-Selling Bans and Market Quality in European Equity Markets
 
+DiD evidence that the 2020 EU short-selling bans raised trading costs without delivering their stated volatility benefit.
+
 A difference-in-differences study of the March 2020 short-selling bans and their effect on trading activity, illiquidity, and realized volatility across five European equity markets.
 
 Bachelor thesis at ESCP Business School (BSc in Management, Finance Major), supervised by Prof. Dr. Diego Salzman. January to May 2026.
@@ -7,6 +9,17 @@ Bachelor thesis at ESCP Business School (BSc in Management, Finance Major), supe
 ## Research question
 
 In March 2020, France, Italy, and Spain imposed market-wide short-selling bans during the pandemic shock, lifting them on 18 May 2020. Regulators justified the bans as a tool to contain volatility, while prior research links short-selling constraints to lower liquidity and slower incorporation of negative information. This thesis examines what actually happened to trading activity, illiquidity, and return volatility during the active window and after the lift.
+
+## Key findings
+
+Using a two-way fixed-effects difference-in-differences design on a daily panel of 164 benchmark-index constituents (35,588 firm-day observations) across five European markets, the analysis compares banning countries (France, Italy, Spain) against non-banning controls (Germany, Netherlands) around the 2020 short-selling bans.
+
+- **Trading activity fell.** Treated firms showed roughly 25% lower trading activity during the active ban window (DID_BAN = −0.289 on log volume, p < 0.01). The effect faded after the 18 May lift, with the post-lift coefficient statistically indistinguishable from zero.
+- **Illiquidity rose and persisted.** Illiquidity increased sharply during the ban (AMIHUD_W DID_BAN = 524.25, p < 0.01) and remained elevated after the lift (184.61, p < 0.01), suggesting liquidity costs did not unwind cleanly when the restriction ended.
+- **No volatility effect.** The dimension the bans were meant to address showed no measurable differential response in either window. The stated regulatory benefit is the one margin where treated and control firms moved together.
+- **Effects concentrated in smaller firms.** Under a within-country median size split, point estimates for trading activity and illiquidity were larger for small-cap firms.
+
+**Identification note.** Event-study estimates reject parallel pre-trends for all three outcomes (joint Wald test, p < 0.01), and the ban window overlaps the ECB PEPP announcement and country-specific interventions. Results are reported as conditional associations consistent with the bans, not causal effects.
 
 ## Data and sample
 
