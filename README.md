@@ -45,7 +45,7 @@ Heterogeneity by firm size uses the within-country median market capitalization 
 
 ## Variable construction
 
-The raw Amihud illiquidity ratio exhibits extreme right-skew, with the maximum observation more than 200 times the median. To prevent these tail values from dominating the regression estimates, the variable is symmetrically winsorized at the 1st and 99th percentiles of the pooled sample. The winsorized version (`AMIHUD_W`) is used in all main and heterogeneity specifications; the unwinsorized version is reported as a robustness check.
+The raw Amihud illiquidity ratio exhibits extreme right-skew, with the maximum observation roughly 230 times the median. To prevent these tail values from dominating the regression estimates, the variable is symmetrically winsorized at the 1st and 99th percentiles of the pooled sample. The winsorized version (`AMIHUD_W`) is used in all main and heterogeneity specifications; the unwinsorized version is reported as a robustness check.
 
 ![Amihud winsorization diagnostic](figures/fig_prewinsorization_diagnostic.png)
 
@@ -81,7 +81,7 @@ Three findings:
 
 ## Heterogeneity by firm size
 
-Splitting the sample at the within-country median market capitalization on the day before the ban shows that all three findings are concentrated in small-cap firms.
+Splitting the sample at the within-country median market capitalization on the day before the ban shows that the two significant findings, on trading activity and illiquidity, are concentrated in small-cap firms. Volatility shows no effect in either subsample.
 
 ![Heterogeneity by firm size](figures/fig_heterogeneity_coefficients.png)
 
