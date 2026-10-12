@@ -1,6 +1,6 @@
 # Short-Selling Bans and Market Quality in European Equity Markets
 
-DiD evidence that the 2020 EU short-selling bans raised trading costs without delivering their stated volatility benefit.
+Difference-in-differences evidence that the 2020 EU short-selling bans coincided with higher trading costs and no measurable volatility benefit.
 
 A difference-in-differences study of the March 2020 short-selling bans and their effect on trading activity, illiquidity, and realized volatility across five European equity markets.
 
@@ -75,8 +75,8 @@ Sample means by period make the same point in numbers. The mean of `AMIHUD_W` in
 
 Three findings:
 
-1. Trading activity falls during the ban (-0.289, p < 0.01) and recovers after the lift. The drop corresponds to roughly a 25% reduction in daily share volume on treated firms during the active window. The post-lift coefficient is small and statistically indistinguishable from zero.
-2. Illiquidity rises during the ban (524.25, p < 0.01) and remains elevated after (184.61, p < 0.01). The deterioration in price-impact-per-unit-of-trading persists into the post-lift period, contrary to a clean policy reversal.
+1. Trading activity falls during the ban (-0.289, p < 0.01) and shows no detectable gap after the lift. The drop corresponds to roughly a 25% reduction in daily share volume on treated firms during the active window. The post-lift coefficient is small and statistically indistinguishable from zero.
+2. Illiquidity rises during the ban (524.25, p < 0.01) and remains elevated after (184.61, p < 0.01). The deterioration in price-impact-per-unit-of-trading persists into the post-lift period, contrary to a clean policy reversal. For scale, the ban-window estimate (524.25) is about 87% of the treated firms' pre-ban mean of 605.4.
 3. No statistically significant volatility differential is detected during or after the ban, despite the policy being justified on volatility-containment grounds.
 
 ## Heterogeneity by firm size
