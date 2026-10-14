@@ -140,7 +140,7 @@ Pre-period coefficients for illiquidity drift, and a joint-zero test of the pre-
 │   ├── table3_heterogeneity.png
 │   └── table4_robustness.png
 └── outputs/
-    ├── baseline_results.csv
+    ├── baseline_did_results.csv
     ├── heterogeneity_results.csv
     └── robustness_results.csv
 ```
